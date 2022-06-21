@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact-form-style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>お問い合わせ</h1>
+            <p class="top">以下のフォームより、お問い合わせください。</p>
+            <dl>
+                <dt>お名前<span>必須</span></dt>
+                <dd><input type="text" placeholder="田中 太郎"></dd>
+            </dl>
+            <dl>
+                <dt>メールアドレス<span>必須</span></dt>
+                <dd><input type="email" placeholder="taro@gmail.com"></dd>
+            </dl>
+            <dl>
+                <dt>お問い合わせ内容</dt>
+                <dd>
+                    <textarea name="message" placeholder="例）ほかのおいしいラーメン屋を紹介してほしい"></textarea>
+                </dd>   
+            </dl>
+            <p class="personal-info"><a class="link" href="">個人情報保護方針</a>に同意の上メッセージを送信してください。</p>
+            <div class="agreement">
+                <input type="checkbox" name="agree">
+                <label for="agree">同意する</label>
+            </div>
+            <div class="button-box">
+                <button>送信する</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

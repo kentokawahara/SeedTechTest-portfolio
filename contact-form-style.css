@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    color: #333;
+}
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 0;
+}
+form {
+    border: 2px solid pink;
+    padding: 20px 5%;
+    width: 80%;
+}
+@media screen and (min-width:780px) {
+    form{
+       padding: 40px 0;
+    }
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+dl {
+    margin-bottom: 20px;
+}
+@media screen and (min-width:780px) {
+    dl{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+dt {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width:780px) {
+    dt{
+        width: 25%;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+}
+@media screen and (min-width:780px) {
+    dd{
+        width: 72%;
+    }
+}
+span {
+    font-size: 10px;
+    background-color: rgb(47, 172, 255);
+    margin-left: 14px;
+    border-radius: 3px;
+    padding: 3px 8px;
+    color: white;
+    font-weight: lighter;
+}
+.top {
+    margin-bottom: 22px;
+}
+@media screen and (min-width:780px) {
+    .top {
+        text-align: center;
+    }
+}
+dd > input {
+    width: 90%;
+    height: 30px;
+    padding: 5px 12px;
+    border: 2px solid rgb(193, 193, 193);
+}
+@media screen and (min-width:780px) {
+    dd > input {
+        width:60%;
+    }
+}
+.radio-item, .checkbox-item, .agreement {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width:780px) {
+    .radio-items, .checkbox-items{
+        display: flex;
+    }
+}
+.radio-item > input, .checkbox-item > input, .agreement > input {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+}
+@media screen and (min-width:780px) {
+    .radio-item, .checkbox-item{
+        margin-right: 30px;
+    }
+}
+textarea {
+    height: 370px;
+    width: 90%;
+    padding: 12px;
+    border: 2px solid rgb(193, 193, 193);
+    font-size: 14px;
+    margin-top: 12px;
+}
+.agreement {
+    margin: 10px 0;
+}
+@media screen and (min-width:780px) {
+    .personal-info{
+        text-align: center;
+    }
+}
+@media screen and (min-width:780px) {
+    .agreement{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+.link {
+    color: rgb(59, 99, 233);
+    /* text-decoration: none; */
+}
+button {
+    padding: 25px 0px;
+    background-color: rgb(221, 166, 64);
+    border-radius: 8px;
+    font-size: 22px;
+    width: 100%;
+    margin: 40px 0px;
+    color: white;
+    border: none;
+    position: relative;
+}
+@media screen and (min-width:780px) {
+    button{
+        width: 35%;
+    }
+    .button-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* button:after {
+    content: 'test';
+    color: red;
+    height: 15px;
+    background-color: rgb(0, 166, 255);
+    position: absolute;
+    border-radius: inherit;
+} */
